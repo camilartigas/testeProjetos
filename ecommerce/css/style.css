@@ -1,0 +1,13 @@
+.carousel-inner {
+    width: 99%;
+    height: 450px;
+    object-fit: cover;
+    /* deixar centralizado */
+    margin: auto;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
