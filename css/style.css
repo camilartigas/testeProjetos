@@ -1,0 +1,170 @@
+/* Estilos para o carousel */
+.carousel-inner {
+    width: 99%;
+    height: 250px;
+    object-fit: cover;
+    /* deixar centralizado */
+    margin: auto;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para os cards */
+.card {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(27, 2, 48, 0.75);
+    position: relative; /* Adicionamos essa propriedade para alinhar os botões corretamente */
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card del {
+    color: #e61818;
+    font-size: 14px;
+}
+
+/* Estilos para a área do carrinho de compra */
+.cart-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-price {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.quantity p {
+    margin: 0;
+    text-align: center;
+    font-size: 16px; /* Aumentamos o tamanho da letra */
+    text-align: center; /* Centralizamos o texto */
+}
+
+.btn-cart {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.btn-cart:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.btn-pink {
+    background-color: #d18090;
+    color: #fff;
+    border: none;
+    padding: 10px 50px; /* Aumentamos o tamanho do botão */
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px; /* Espaço entre os botões */
+}
+
+
+.btn-pink:hover {
+    cursor: pointer;
+    background-color: #ff4f4f;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-black:hover {
+    cursor: pointer;
+    background-color: #222;
+}
+
+.cart-area p {
+    font-size: 12px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #444;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .footer img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    color: #d18090;
+  }
+  
+  .footer p {
+    margin-bottom: 5px;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  

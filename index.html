@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
     <title>HelpCart</title>
     <link rel="stylesheet" href="css/style.css">
@@ -69,13 +71,13 @@
                     <a class="nav-link disabled">Dermocosméticos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disables">Nossas Ofertas</a>
+                    <a class="nav-link disabled">Nossas Ofertas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" >Quem Somos</a>
+                    <a class="nav-link disabled">Quem Somos</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Fale Conosco</a>
+                    <a class="nav-link" href="contactUs.html">Fale Conosco</a>
                 </li>
             </ul>
         </div>
@@ -120,6 +122,20 @@
                         <div class="card-body">
                             <h5 class="card-title">Medicamento Y</h5>
                             <p class="card-price"> <del>DE:108,55</del><br>R$100,46</p>
+
+                            <div class="cart-area">
+                                <div class="cart-buttons">
+                                    <div class="quantity">
+                                        <p>Qtd:</p>
+                                    </div>
+                                    <button class="btn btn-cart">+</button>
+                                    <button class="btn btn-cart">0</button>
+                                    <button class="btn btn-cart">-</button>
+                                </div>
+                                <button class="btn btn-pink">Adicionar</button>
+                                <button class="btn btn-black">Comprar agora</button>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -129,6 +145,20 @@
                         <div class="card-body">
                             <h5 class="card-title">Medicamento Z</h5>
                             <p class="card-price"> <del>DE:95,30</del><br>R$87,40</p>
+
+                            <div class="cart-area">
+                                <div class="cart-buttons">
+                                    <div class="quantity">
+                                        <p>Qtd:</p>
+                                    </div>
+                                    <button class="btn btn-cart">+</button>
+                                    <button class="btn btn-cart">0</button>
+                                    <button class="btn btn-cart">-</button>
+                                </div>
+                                <button class="btn btn-pink">Adicionar</button>
+                                <button class="btn btn-black">Comprar agora</button>
+                            </div>
+
                         </div>
                         
                     </div>
@@ -139,6 +169,20 @@
                         <div class="card-body">
                             <h5 class="card-title">Medicamento A</h5>
                             <p class="card-price"> <del>DE:8,48</del><br>R$5,75</p>
+
+                            <div class="cart-area">
+                                <div class="cart-buttons">
+                                    <div class="quantity">
+                                        <p>Qtd:</p>
+                                    </div>
+                                    <button class="btn btn-cart">+</button>
+                                    <button class="btn btn-cart">0</button>
+                                    <button class="btn btn-cart">-</button>
+                                </div>
+                                <button class="btn btn-pink">Adicionar</button>
+                                <button class="btn btn-black">Comprar agora</button>
+                            </div>
+
                         </div>
                         
                     </div>
@@ -149,6 +193,20 @@
                         <div class="card-body">
                             <h5 class="card-title">Medicamento X</h5>
                             <p class="card-price"> <del>DE:33,90</del><br>R$27,81</p>
+
+                            <div class="cart-area">
+                                <div class="cart-buttons">
+                                    <div class="quantity">
+                                        <p>Qtd:</p>
+                                    </div>
+                                    <button class="btn btn-cart">+</button>
+                                    <button class="btn btn-cart">0</button>
+                                    <button class="btn btn-cart">-</button>
+                                </div>
+                                <button class="btn btn-pink">Adicionar</button>
+                                <button class="btn btn-black">Comprar agora</button>
+                            </div>
+
                         </div>
                        
                     </div>
@@ -159,29 +217,62 @@
     <!-- END CARDS -->
 
     <div class="mt-5"></div>
-    <!-- MAP -->
-    <div class="container">
-        <div class="row-fluid">
-            <div class="col-md-8">
-                <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
-            </div>
+   
 
-            <div class="col-md-4">
-                <h2>CONTACT US</h2>
-                <address>
-                    <strong>CYBERBORG BODYART</strong><br>
-                    Jl.Kemang 1 No.2B<br>
-                    Bangka, Mampang Prapatan<br>
-                    East Jakarta, DKI<br>
-                    Indonesia<br>
-                    12730<br>
-                    <abbr title="Phone">P:</abbr> (+62) 856-1891-791
-                </address>
+    <!-- START FOOTER -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h4>Formas de Pagamento</h4>
+              <img src="img/formas-pagamento.png" alt="Formas de Pagamento">
             </div>
+            <div class="col-md-3">
+              <h4>Atendimento</h4>
+              <ul>
+                <li><a href="#">Central de Atendimento</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">Política de Troca</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>SAC</h4>
+              <p>Telefone: (41) 3333-3333</p>
+              <p>E-mail: camiart@gmail.com.br</p>
+            </div>
+            <div class="col-md-3">
+              <h4>Siga-nos nas Redes</h4>
+              <ul class="social-icons">
+                <li><a href="#" target="_blank"><img src="" alt=""></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    <!-- END FOOTER -->
+
+     <!-- Footer Credits -->
+     <div class="bg-light py-2 text-center">
+        <div class="container">
+            <p class="m-0">
+                <a href="https://www.flaticon.com/br/icones-gratis/cataventos" target="_blank"
+                    title="cataventos ícones">Cataventos ícones criados por Marpina - Flaticon</a>
+            </p>
+            <p class="m-0">
+                <a href="https://www.flaticon.com/br/icones-gratis/conecte-se" target="_blank"
+                    title="conecte-se ícones">Conecte-se ícones criados por Tempo_doloe - Flaticon</a>
+            </p>
+            <p class="m-0">
+                <a href="https://www.flaticon.com/br/icones-gratis/carrinho-de-compras" target="_blank"
+                    title="carrinho de compras ícones">Carrinho de compras ícones criados por Freepik - Flaticon</a>
+            </p>
         </div>
     </div>
-    <!-- MAP -->
+    <!-- End Footer Credits -->
 
     <!-- SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -190,11 +281,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
+    
+<!-- FOOTER -->
 
-    <!-- <footer>
+
+
+<!-- FOOTER -->
+        <!-- <footer>
         <a href="https://www.flaticon.com/br/icones-gratis/cataventos" title="cataventos ícones">Cataventos ícones criados por Marpina - Flaticon</a>
 
         <a href="https://www.flaticon.com/br/icones-gratis/conecte-se" title="conecte-se ícones">Conecte-se ícones criados por Tempo_doloe - Flaticon</a>
+
+        <a href="https://www.flaticon.com/br/icones-gratis/carrinho-de-compras" title="carrinho de compras ícones">Carrinho de compras ícones criados por Freepik - Flaticon</a>
     </footer> -->
 </body>
 
