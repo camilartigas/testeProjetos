@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+    
+
     <title>HelpCart</title>
     <link rel="stylesheet" href="css/styleCU.css">
 </head>
@@ -18,7 +20,8 @@
 
     <!-- START NAVBAR-->
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
         <a class="navbar-brand" href="#"><img src="img/cataventos.png" width="30" height="30" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +51,6 @@
             </li>
         </div>
     </nav>
-
     <!-- END NAVBAR-->
 
     <br>
@@ -56,7 +58,7 @@
 
     <!-- START NAVBAR2-->
 
-    <nav class="navbar justify-content-center navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar justify-content-center navbar-expand-lg navbar-light">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,6 +86,7 @@
     </nav>
 
     <!-- END NAVBAR2-->
+    </header>
 
     <div class="mt-3"></div>
 
@@ -91,97 +94,138 @@
     <div class="d-flex justify-content-center">
         <form>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          <div class="form-group col-md-4">
+            <label for="name">Nome</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Informe seu nome">
           </div>
-          <div class="form-group col-md-6">
-            <label for="inputPassword4">Password</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+          <div class="form-group col-md-8">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" class="form-control" id="inputSobrenome" placeholder="Informe seu Sobrenome">
           </div>
-        </div>
-        <div class="form-group">
-          <label for="inputAddress">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="form-group">
-          <label for="inputAddress2">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputState">State</label>
-            <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>...</option>
+           <div class="form-group col-md-4">
+          <label for="tel">Telefone</label>
+          <input type="tel" class="form-control" id="inputTel" placeholder="Informe seu telefone">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="Informe seu e-mail">
+        </div> 
+        <div class="form-group col-md-4">
+            <label for="inputAssunto">Assunto</label>
+            <select id="inputAssunto" class="form-control">
+                <option selected disabled value="">Selecione</option>
+                <option value="">Comercial</option>
+                <option value="">Dúvidas</option>
+                <option value="">Revenda</option>
             </select>
           </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
+        </div>
+        <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea type="text" class="form-control" id="mensagem" cols="50" rows="8"></textarea>
         </div>
         <div class="form-group">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck">
             <label class="form-check-label" for="gridCheck">
-              Check me out
+                Esta mensagem é sobre um orçamento
             </label>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
     </div>
     
     <!-- END FORM -->
     <div class="mt-5"></div>
 
-    <!-- CARDS -->
-    
-    <!-- END CARDS -->
-
-    <div class="mt-5"></div>
-    <!-- MAP -->
+    <!-- START MAP -->
     <div class="container">
-        <div class="row-fluid">
+        <div class="row">
             <div class="col-md-8">
-                <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.87142300825!2d-49.28835552577724!3d-25.44256183338667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3883782aced%3A0x2d554d3d695ddf7b!2sCastelo%20do%20Batel!5e0!3m2!1spt-BR!2sbr!4v1690113657219!5m2!1spt-BR!2sbr" width="750" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-
             <div class="col-md-4">
-                <h2>CONTACT US</h2>
+                <h2>NOSSO ENDEREÇO</h2>
                 <address>
-                    <strong>CYBERBORG BODYART</strong><br>
-                    Jl.Kemang 1 No.2B<br>
-                    Bangka, Mampang Prapatan<br>
-                    East Jakarta, DKI<br>
-                    Indonesia<br>
-                    12730<br>
-                    <abbr title="Phone">P:</abbr> (+62) 856-1891-791
+                    Rua das Vendas, número 1<br>
+                    Bairro das Compras<br>
+                    Ecommerce, CO<br>
+                    Brasil<br>
+                    CEP:00.000-001<br>
+                    <abbr title="Phone">Telefone:</abbr> (+55) 99 3333-3333
                 </address>
             </div>
         </div>
+            
     </div>
-    <!-- MAP -->
+    <!-- END MAP -->
 
-    <!-- SCRIPT -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-        crossorigin="anonymous"></script>
+ <!-- START FOOTER -->
+    <footer style="background-color: #f9fdff;">
+        <!-- Footer main-->
+            <div class="row">
+              <div class="col-md-3">
+                <h4>Formas de Pagamento</h4>
+                <ul class="pay">
+                    <li><a href="#"><img src="img/cartao.png" alt="Cartão"></a></li>
+                    <li><a href="#"><img src="img/codigo-de-barras.png" alt="Boleto"></a></li>
+                    <li><a href="#"><img src="img/pix_icon.png" alt="Pix"></a></li>
+                  </ul>
+               
+              </div>
+              <div class="col-md-3">
+                <h4>Atendimento</h4>
+                <ul class="list">
+                  <li><a href="#">Central de Atendimento</a></li>
+                  <li><a href="#">Fale Conosco</a></li>
+                  <li><a href="#">Política de Troca</a></li>
+                  <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h4>SAC</h4>
+                <p>Telefone: (41) 3333-3333</p>
+                <p>E-mail: camiart@gmail.com.br</p>
+              </div>
+              <div class="col-md-3">
+                <h4>Siga-nos nas Redes</h4>
+                <ul class="social-icons">
+                  <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+                  <li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+                  <li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+                </ul>
+              </div>
+            </div>     
+    </footer>
+  <!--Credits -->
+        <div style="background-color: #fcfeff" class="py-2 text-center">
+            <div class="container">
+                <p class="m-0">
+                    <a href="https://www.flaticon.com/br/icones-gratis/cataventos" target="_blank"
+                        title="cataventos ícones">Cataventos ícones criados por Marpina - Flaticon</a>
+                </p>
+                <p class="m-0">
+                    <a href="https://www.flaticon.com/br/icones-gratis/conecte-se" target="_blank"
+                        title="conecte-se ícones">Conecte-se ícones criados por Tempo_doloe - Flaticon</a>
+                </p>
+                
+            </div>
+        </div> 
+ 
 
-    <!-- <footer>
-        <a href="https://www.flaticon.com/br/icones-gratis/cataventos" title="cataventos ícones">Cataventos ícones criados por Marpina - Flaticon</a>
-
-        <a href="https://www.flaticon.com/br/icones-gratis/conecte-se" title="conecte-se ícones">Conecte-se ícones criados por Tempo_doloe - Flaticon</a>
-    </footer> -->
+ <!-- SCRIPT -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+ integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+ crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+ crossorigin="anonymous"></script>
+ 
 </body>
 
 </html>
